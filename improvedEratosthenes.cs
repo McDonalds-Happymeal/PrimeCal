@@ -19,7 +19,6 @@ public class eratosthenes {
             while(!x[i]) {
                 i++;
             }
-            Console.WriteLine("{0}, ",i);
             k=2;
             while(k*i<max) {
                 x[k*i] = false;
